@@ -1,0 +1,60 @@
+:root {
+    --main-color: #2f4f4f;
+    --accent-color:rgb 132, 144, 133;
+    --terniary-color: #847863;
+    --my-white: #ebeff0;
+  }
+  body{
+    background-color: var(--main-color);
+  }
+.header-title{
+    color: var(--my-white);
+    text-align: center;
+}
+.main-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.history-of-music{
+    background-color: var(--my-white);
+}
+.history-of-music-title{
+    color: var(--my-white);
+    background-color: var(--terniary-color);
+    text-align: center;
+}
+.history-of-music-text{
+    text-align: left;
+    color: rgba var(--accent-color), .02;
+}
+.history-of-music-date-2{
+    text-align: center;
+}
+.history-of-music-date-3{
+    text-align: right;
+}
+.title{
+
+}
+  
+  .imageRight {
+    display: block;
+    margin-left: auto;
+  }
+  .imageCenter {
+    display: block;
+    margin: auto;
+  }
+  
+  main > img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 200px;
+  }
+  
+  h3:hover {
+    color: var(--terniary-color);
+  }
+  
