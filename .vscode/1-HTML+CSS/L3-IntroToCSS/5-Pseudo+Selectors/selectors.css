@@ -1,0 +1,19 @@
+body {
+  background-color: darkgoldenrod;
+}
+/* https://www.w3schools.com/cssref/css_selectors.asp */
+
+div > h3 {
+  color: green;
+}
+
+a[href^='tel'] {
+  color: white;
+  text-decoration: none;
+}
+/*
+
+CSS Selector Game
+ https://flukeout.github.io/ 
+ 
+ */

@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.d {
+  border: dashed green 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 300px 50px 20px 100px;
+}
+
+#a {
+  background-color: orange;
+}
+#b {
+  background-color: red;
+}
+/* 
+padding: value = apply to all sides
+padding : value1 value2 = value1 is top bottom, value2 is left right
+padding: value1 value2 value3 = value1 is top, value2 is leftright, value 3 is bottom
+padding: value1 value2 value3 value4 = Top Right Left Bottom (TRBL) 
+
+margin: value = apply to all sides
+margin : value1 value2 = value1 is top bottom, value2 is left right
+margin: value1 value2 value3 = value1 is top, value2 is leftright, value 3 is bottom
+margin: value1 value2 value3 value4 = Top Right Left Bottom (TRBL) 
+*/

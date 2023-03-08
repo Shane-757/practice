@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../FSOn5_USA/1-HTML+CSS"
+    },
+    {
+      "path": "../FSOn5_USA/2-Javascript"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.port": 5502
+  }
+}

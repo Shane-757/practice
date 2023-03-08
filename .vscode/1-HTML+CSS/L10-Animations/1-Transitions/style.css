@@ -1,0 +1,60 @@
+div {
+  width: 300px;
+  height: 300px;
+  background-color: wheat;
+  border-radius: 12px;
+  /* transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 500ms;
+  transition-timing-function: ease-in; */
+  transition: all 1s ease-in 1s;
+}
+
+div:hover {
+  background-color: tomato;
+  border-radius: 100px;
+  width: 500px;
+  height: 500px;
+}
+
+main {
+  border: 2px dashed #2a2a2a;
+  border-radius: 4px;
+  padding: 10px;
+}
+main:hover section {
+  transform: translatex(400px);
+}
+
+section {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition-property: transform;
+  transition-duration: 2s;
+  transform: translatex(0);
+}
+
+section:nth-child(1) {
+  background-color: red;
+  transition-timing-function: linear;
+}
+
+section:nth-child(2) {
+  background-color: blue;
+  transition-timing-function: ease;
+}
+
+section:nth-child(3) {
+  background-color: green;
+  transition-timing-function: ease-in;
+}
+
+section:nth-child(4) {
+  background-color: yellow;
+  transition-timing-function: ease-out;
+}
+section:nth-child(5) {
+  background-color: grey;
+  transition-timing-function: cubic-bezier(0.95, 0.05, 0.45, 0.035);
+}

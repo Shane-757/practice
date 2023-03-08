@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+  margin: 0px 20px;
+}
+
+.responsive,
+.adaptive {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #aaa;
+  padding: 60px;
+  margin-bottom: 20px;
+  transition: flex-direction 2s, background-color 2s;
+}
+
+.responsive-list,
+.adaptive-list {
+  display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+  .adaptive {
+    justify-content: center;
+    flex-direction: column;
+    background-color: red;
+  }
+}

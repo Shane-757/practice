@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 30px;
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  margin: 0px 10px;
+  border-radius: 12px;
+  border: none;
+}
+
+.search {
+  color: white;
+  background-color: green;
+}
+
+.cancel {
+  color: white;
+  background-color: red;
+
+}

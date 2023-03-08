@@ -1,0 +1,20 @@
+.css {
+  width: 500px;
+  height: 400px;
+  background-color: red;
+}
+
+.css:hover {
+  background-color: blue;
+}
+
+.test h1 {
+  background-color: yellow;
+}
+.test div{
+
+}
+
+.test div h1 {
+  
+}
